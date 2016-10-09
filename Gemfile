@@ -27,7 +27,7 @@ end
 
 gem 'rake'
 gem 'ZenTest'
-gem 'simple_form'
+gem 'simple_form', '~> 3.0.0'
 gem 'formtastic', "~> #{ENV['FORMTASTIC'] || '2.0'}"
 gem 'ruby-debug', :platform => :ruby_18
 gem 'debugger', :platform => :ruby_19
